@@ -38,7 +38,32 @@ let number = 45
 
 let stringNumber = String(number)
 
-console.log(stringNumber);
-console.log( typeof stringNumber);
+//console.log(stringNumber);
+//console.log( typeof stringNumber);
 
-// 45 -> "45"
+/* 
+ 45 -> "45"  
+ */
+
+//**************** OPERATIONS **************
+
+let value = 3
+let negValue = -value
+
+//console.log(negValue);
+
+let str1 = "hello"
+let str2 = " shouvik"
+
+let str3 = str1 + str2
+
+//console.log(str3);
+
+//console.log(1 + "2");
+//console.log("1" + 2);
+//console.log(1 + 2 + "3");
+//console.log("1" + 2 + 3);
+
+let counter = 12
+counter++
+console.log(counter);
